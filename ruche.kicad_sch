@@ -4425,6 +4425,9 @@
     (path "/00000000-0000-0000-0000-0000609e7af1/bb7ae7f6-63de-450d-ae2b-f3b6c8a246d5"
       (reference "#PWR0234") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/429701ac-ebd9-48d3-995b-40e8ea5b5fa3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000609e7af1/27949037-10e0-465d-ad1e-4223c09881c0"
       (reference "C1") (unit 1) (value "100µF/35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
@@ -4917,6 +4920,9 @@
     (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/4d629896-37c7-4565-bb1a-d74f84bcfdd2"
       (reference "R41") (unit 1) (value "22.1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/a0f0c70c-74dc-4f53-a27d-4aa1cb145c8e"
+      (reference "R42") (unit 1) (value "499/5%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/40bc5463-a30d-4b86-89ed-b91c5a12ef42"
       (reference "R44") (unit 1) (value "47.5k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -4968,14 +4974,14 @@
     (path "/c68515a5-a1f8-4832-8b5f-184b6d1f33f0"
       (reference "U5") (unit 1) (value "XC6220B331MR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/6cf80c33-83de-434a-987e-df69dd93d87d"
+      (reference "U6") (unit 1) (value "Heltec_Wireless_shell_V3") (footprint "Empreintes:Heltec Wireless shell V3")
+    )
     (path "/00000000-0000-0000-0000-0000609e7af1/f526b5d4-d24d-4a26-ba08-bbacc53ec371"
       (reference "U7") (unit 1) (value "1043") (footprint "Empreintes:1043")
     )
     (path "/402d9a9b-b4a1-466d-811d-65ff3e4bb1d4"
       (reference "U9") (unit 1) (value "XC6220B331MR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
-    )
-    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/7a8ddce2-0b25-4096-ae52-4f9fecd0968a"
-      (reference "U?") (unit 1) (value "Heltec_Wifi_LoRa_V3") (footprint "")
     )
   )
 )
