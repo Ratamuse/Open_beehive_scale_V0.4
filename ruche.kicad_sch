@@ -4104,6 +4104,9 @@
     (path "/00000000-0000-0000-0000-00006011445d/f716eff1-8275-4c6a-b167-1466ce8701bd"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/429701ac-ebd9-48d3-995b-40e8ea5b5fa3"
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006277e517"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
@@ -4424,9 +4427,6 @@
     )
     (path "/00000000-0000-0000-0000-0000609e7af1/bb7ae7f6-63de-450d-ae2b-f3b6c8a246d5"
       (reference "#PWR0234") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/429701ac-ebd9-48d3-995b-40e8ea5b5fa3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000609e7af1/27949037-10e0-465d-ad1e-4223c09881c0"
       (reference "C1") (unit 1) (value "100µF/35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
