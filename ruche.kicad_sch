@@ -6,8 +6,8 @@
 
   (title_block
     (title "Open_beehive_scale_board")
-    (date "2022-05-16")
-    (rev "V0.1")
+    (date "2023-01-13")
+    (rev "V0.4")
     (company "Ratamuse")
   )
 
@@ -1914,9 +1914,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6290dd94-88b6-4727-86d0-fb055961e1bd)
   )
-  (text "Battery supervision\n" (at 124.46 151.13 0)
+  (text "Battery supervision\n" (at 124.714 155.448 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 90e02218-63de-49ce-ac15-fe6b187b1d6a)
+  )
+  (text "Heltec Wireless shell V3 POWER SUPPLY" (at 124.968 53.086 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 93ea2431-f480-4660-ab43-4c65412a25ea)
   )
   (text "Tilt sensor \n(suspicious mouvement alarm)" (at 199.39 163.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1925,6 +1929,10 @@
   (text "Temperature and humidity sensor\n" (at 200.66 60.96 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ccd4465-e2f7-4384-a952-13115bfb30de)
+  )
+  (text "External RESET push button" (at 126.492 195.326 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bd25497b-b724-49e1-a491-6251c14eee3e)
   )
   (text "Pressure sensor" (at 200.66 116.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4213,7 +4221,7 @@
     (path "/00000000-0000-0000-0000-00006277e517"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006011445d/9d6c492f-a56c-4a47-99a2-4fcd0c43c5ec"
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/63fea5a4-61b5-44d3-9907-b5f7d4c10d2f"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006011445d/0b66199e-9645-4870-a73a-fe19db3ec800"
@@ -4531,6 +4539,9 @@
     (path "/50b2a9a4-4d9d-4c61-baa0-7977acbd17d1"
       (reference "#PWR0232") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006011445d/c02a9f41-7766-4886-9874-3c122de45fa2"
+      (reference "#PWR0233") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000609e7af1/bb7ae7f6-63de-450d-ae2b-f3b6c8a246d5"
       (reference "#PWR0234") (unit 1) (value "GND") (footprint "")
     )
@@ -4726,6 +4737,9 @@
     (path "/00000000-0000-0000-0000-0000609e7af1/3e9597cd-fc91-4f67-9ed9-b8f237ad9ed6"
       (reference "C64") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/18e9bf14-e16c-4d39-834c-de3b592af806"
+      (reference "C65") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-0000609e7af1/20fa6fea-0ecc-4b67-b8cc-6a4de1a0d2a6"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Castellated")
     )
@@ -4810,8 +4824,8 @@
     (path "/00000000-0000-0000-0000-00006011445d/5f873eca-e3eb-45df-ac01-450ee95cf564"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00006011445d/5d24980b-7611-49f9-b4eb-245894554c4b"
-      (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
+    (path "/00000000-0000-0000-0000-00006011445d/04077ed3-6466-4148-9df4-ea025f279428"
+      (reference "J4") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006011445d/e8787f64-d77a-42cc-a9f5-8346c8d80077"
       (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
@@ -4863,9 +4877,6 @@
     )
     (path "/534352b5-344f-40fd-9b86-d6a504145924"
       (reference "J21") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00006011445d/79fe9980-abb4-43ab-a32a-a54b421cb267"
-      (reference "JP1") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/00000000-0000-0000-0000-0000609e7af1/d3ebbd18-8772-4e3c-a3ab-aa9dd5493a54"
       (reference "L1") (unit 1) (value "82µH/3A") (footprint "Empreintes:INDPM138126X700N")
@@ -5065,11 +5076,17 @@
     (path "/00000000-0000-0000-0000-0000609e7af1/7f7d03a9-52a2-46df-877a-ec4e965a34c3"
       (reference "R53") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/1791033d-8643-4d87-bec8-492e0cfae666"
+      (reference "R54") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000062773850"
       (reference "S1") (unit 1) (value "RB231X2") (footprint "Empreintes:RB231X2")
     )
     (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/4f9a1063-d7ab-41bd-b5d6-541e0b215483"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Empreintes:PTS636SL43SMTRLFS")
+    )
+    (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/47a88e7c-4b09-4fe1-9cff-053d8d879663"
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Empreintes:PTS636SL43SMTRLFS")
     )
     (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/e34719be-30e8-4756-8475-8be71c8100da"
       (reference "U1") (unit 1) (value "CP2102N-A02-GQFN24") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
@@ -5089,7 +5106,7 @@
     (path "/a9a1feef-c39d-4052-8bf2-e3ffc2216412/6cf80c33-83de-434a-987e-df69dd93d87d"
       (reference "U6") (unit 1) (value "Heltec_Wireless_shell_V3") (footprint "Empreintes:Heltec Wireless shell V3")
     )
-    (path "/00000000-0000-0000-0000-0000609e7af1/f526b5d4-d24d-4a26-ba08-bbacc53ec371"
+    (path "/00000000-0000-0000-0000-00006011445d/cb63f569-c9cd-49a5-aaa0-53a6c6aafd1d"
       (reference "U7") (unit 1) (value "1043") (footprint "Empreintes:1043")
     )
     (path "/402d9a9b-b4a1-466d-811d-65ff3e4bb1d4"
