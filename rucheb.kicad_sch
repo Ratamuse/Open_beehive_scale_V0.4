@@ -1535,7 +1535,7 @@
     (property "Reference" "R1" (id 0) (at 34.798 73.7616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2K" (id 1) (at 34.798 76.073 0)
+    (property "Value" "10K" (id 1) (at 34.798 76.073 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 31.242 74.93 90)
